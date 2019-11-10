@@ -30,13 +30,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+Foreach changes the original array, map creates a new array
+
 2. What is the difference between a function and a method?
+
+A method is a function that is also an object property. 
 
 3. What is closure?
 
 4. Describe the four rules of the 'this' keyword.
 
+ 1. this refers to the global object
+  2. in a method, this refers to the owner of the method
+  3. in a constructor (using the 'new' keyword) it refers to the new instance
+  4. 'this refers to the invoker object (parent object). so if it is used as a method within that object it will refer to that object instead of the global object
+
 5. Why do we need super() in an extended class?
+
+It is used to call an objects parent.
 
 ## Project Set up
 
